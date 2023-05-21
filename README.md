@@ -1,10 +1,5 @@
-# <img src="public/favicon.svg" alt="atom" height="24"> adamalston<span></span>.com &middot; ![CI Workflow](https://github.com/adamalston/v2/actions/workflows/ci.yml/badge.svg) [![Netlify status](https://img.shields.io/netlify/332bbd91-59b7-4091-8781-6f41330399b4)](https://app.netlify.com/sites/adamalston/deploys)
-
 The second iteration of [adamalston.com](https://www.adamalston.com) built using [React](https://reactjs.org) and hosted on [Netlify](https://www.netlify.com).
 
-Previous iteration: [v1](https://github.com/adamalston/v1)
-
-<img float="left" height="370" src="images/desktop.png" alt="Desktop Preview" role="img" aria-label="desktop screenshot"> <img align="right" height="370" src="images/mobile.png" alt="Mobile Preview" role="img" aria-label="mobile screenshot">
 
 I have designed this website to be simple and accessible. Dynamic particles create an experience that is interactive for visitors. The site offers two themes via a toggle, a dark theme (default) and a light theme. Once toggled, the selected theme should persist between tabs, windows, and page reloads.
 
