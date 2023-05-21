@@ -33,25 +33,14 @@ const Footer: React.FC = () => {
         theme={theme}
         aria-label="Designed and built by Adam Alston"
       >
-        {'Designed and built by '}
-        <F.Link
-          data-v2="creator"
-          theme={theme}
-          href="https://www.adamalston.com"
-          aria-label="Adam's website"
-          title="A link to Adam's personal website"
-        >
-          {'Adam Alston'}
-        </F.Link>
-        {!isMobile && (
+          {!isMobile && (
           <>
-            {' | '}
             <F.Link
               data-v2="source"
               theme={theme}
               href="https://github.com/adamalston/v2/"
               aria-label="Source code"
-              title="View this website's source code in GitHub"
+              title="View Adam's personal website source code in GitHub"
             >
               {'Source'}
             </F.Link>
