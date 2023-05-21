@@ -53,13 +53,13 @@ describe('application tests', () => {
     expect(parent).toHaveAttribute('href', link);
   };
 
-  it('should render name: Adam Alston', () => {
+  it('should render name: Bruno Perillo', () => {
     const element = screen.getByTestId('name');
 
     checkContent(element, /^Adam Alston$/);
   });
 
-  it('should render title: Software Engineer', () => {
+  it('should render title: Data Scientist', () => {
     const element = screen.getByTestId('title');
 
     checkContent(element, /^Software Engineer$/);
@@ -81,7 +81,7 @@ describe('application tests', () => {
     const parent = screen.getByTestId('button-GitHub');
     const child = screen.getByTestId('GitHub');
 
-    checkButton(parent, child, /^GitHub$/, 'https://github.com/adamalston/');
+    checkButton(parent, child, /^GitHub$/, 'https://github.com/brunoperillo/');
   });
 
   it('should render LinkedIn button', () => {
@@ -92,7 +92,7 @@ describe('application tests', () => {
       parent,
       child,
       /^LinkedIn$/,
-      'https://www.linkedin.com/in/adam-alston/'
+      'https://www.linkedin.com/in/brunoperillo/'
     );
   });
 
@@ -104,7 +104,7 @@ describe('application tests', () => {
       parent,
       child,
       /^Resume$/,
-      'https://drive.google.com/drive/folders/10k8NWflSYQ5laPzuWtK3bzUKzuOeas8i/'
+      'https://drive.google.com/drive/folders/xyzZZZZZZZZZZZZ'
     );
   });
 
@@ -112,7 +112,7 @@ describe('application tests', () => {
     const parent = screen.getByTestId('button-Email');
     const child = screen.getByTestId('Email');
 
-    checkButton(parent, child, /^Email$/, 'mailto:aalston9@gmail.com');
+    checkButton(parent, child, /^Email$/, 'mailto:bruno@perillo.xyz');
   });
 
   it('should toggle between the dark and light themes', () => {

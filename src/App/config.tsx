@@ -4,37 +4,37 @@ import { Email, GitHub, LinkedIn, Resume } from 'icons';
 
 const config: Config = {
   name: {
-    display: 'Adam Alston',
-    aria: 'My name is Adam Alston',
+    display: 'Bruno Monserrat Perillo',
+    aria: 'My name is Bruno Monserrat Perillo',
   },
   title: {
-    display: 'Software Engineer',
-    aria: 'I am a software engineer',
+    display: 'Data Scientist',
+    aria: 'I am a data scientist',
   },
   buttons: [
     {
       display: 'GitHub',
       aria: 'Visit my GitHub profile',
       icon: <GitHub />,
-      href: 'https://github.com/adamalston/',
+      href: 'https://github.com/brunoperillo/',
     },
     {
       display: 'LinkedIn',
       aria: 'Visit my LinkedIn profile',
       icon: <LinkedIn />,
-      href: 'https://www.linkedin.com/in/adam-alston/',
+      href: 'https://www.linkedin.com/in/brunoperillo/',
     },
     {
       display: 'Resume',
       aria: 'View my resume in Google Drive',
       icon: <Resume />,
-      href: 'https://drive.google.com/drive/folders/10k8NWflSYQ5laPzuWtK3bzUKzuOeas8i/',
+      href: 'https://drive.google.com/file/d/1pFQFIx7xIy3rFVtyEOJuVPRv5Ke8Xoz5/view',
     },
     {
       display: 'Email',
       aria: 'Send me an email',
       icon: <Email />,
-      href: 'mailto:aalston9@gmail.com',
+      href: 'mailto:bruno@perillo.xyz',
     },
   ],
 };
