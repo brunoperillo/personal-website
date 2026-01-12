@@ -12,43 +12,12 @@ const F = {
     padding-right: ${({ isMobile }) => (isMobile ? '1.5rem' : '1rem')};
     z-index: 1;
   `,
-  Text: styled.p`
-    transition: color 0.5s linear;
-    color: ${({ theme }) => theme.tertiaryTextColor};
-  `,
-  Link: styled.a`
-    transition: color 0.5s linear;
-    text-decoration: none;
-    color: ${({ theme }) => theme.secondaryTextColor};
-  `,
 };
 
 const Footer: React.FC = () => {
-  const { isMobile, theme } = useContext(AppContext);
+  const { isMobile } = useContext(AppContext);
 
-  return (
-    <F.Container isMobile={isMobile}>
-      <F.Text
-        data-v2="footer"
-        theme={theme}
-        aria-label="Designed and built by Adam Alston"
-      >
-          {!isMobile && (
-          <>
-            <F.Link
-              data-v2="source"
-              theme={theme}
-              href="https://github.com/adamalston/v2/"
-              aria-label="Source code"
-              title="View Adam's personal website source code in GitHub"
-            >
-              {'Source'}
-            </F.Link>
-          </>
-        )}
-      </F.Text>
-    </F.Container>
-  );
+  return <F.Container isMobile={isMobile} />;
 };
 
 export default Footer;
