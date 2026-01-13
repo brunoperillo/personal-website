@@ -28,13 +28,13 @@ const config: Config = {
       display: 'Resume',
       aria: 'View my resume in Google Drive',
       icon: <Resume />,
-      href: 'https://drive.google.com/file/d/1NcLi97wAdb844n1Q_6qFmfL99WPEdgu6/view',
+      href: 'https://drive.google.com/file/d/1evY0Fe0KqA-870pXmwtPJQg3Su37T6l8/view',
     },
     {
       display: 'Email',
-      aria: 'Send me an email',
+      aria: 'Send me an email -> bruno@brunoperillo.com',
       icon: <Email />,
-      href: 'mailto:bruno@perillo.xyz',
+      href: 'mailto:bruno@brunoperillo.com',
     },
   ],
 };
