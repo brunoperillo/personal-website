@@ -1,0 +1,80 @@
+[
+  {
+    "output": "public/publicacoes/perillo-2019-dissertacao.pdf",
+    "parts": [
+      ".site-assets/00/part000",
+      ".site-assets/00/part001",
+      ".site-assets/00/part002",
+      ".site-assets/00/part003",
+      ".site-assets/00/part004",
+      ".site-assets/00/part005",
+      ".site-assets/00/part006",
+      ".site-assets/00/part007",
+      ".site-assets/00/part008",
+      ".site-assets/00/part009",
+      ".site-assets/00/part010",
+      ".site-assets/00/part011",
+      ".site-assets/00/part012",
+      ".site-assets/00/part013",
+      ".site-assets/00/part014",
+      ".site-assets/00/part015",
+      ".site-assets/00/part016",
+      ".site-assets/00/part017",
+      ".site-assets/00/part018",
+      ".site-assets/00/part019",
+      ".site-assets/00/part020",
+      ".site-assets/00/part021",
+      ".site-assets/00/part022",
+      ".site-assets/00/part023",
+      ".site-assets/00/part024",
+      ".site-assets/00/part025",
+      ".site-assets/00/part026"
+    ],
+    "bytes": 19801397
+  },
+  {
+    "output": "public/publicacoes/bispo-santos-2012-precambrian.pdf",
+    "parts": [
+      ".site-assets/01/part000",
+      ".site-assets/01/part001",
+      ".site-assets/01/part002",
+      ".site-assets/01/part003",
+      ".site-assets/01/part004",
+      ".site-assets/01/part005"
+    ],
+    "bytes": 4389693
+  },
+  {
+    "output": "public/apresentacoes/defesa-doutorado/defesa_slides.pdf",
+    "parts": [
+      ".site-assets/02/part000"
+    ],
+    "bytes": 633825
+  },
+  {
+    "output": "public/apresentacoes/defesa-doutorado/defesa_slides_com_notas.pdf",
+    "parts": [
+      ".site-assets/03/part000",
+      ".site-assets/03/part001"
+    ],
+    "bytes": 760839
+  },
+  {
+    "output": "public/apresentacoes/defesa-doutorado/figs/b_rede_tese.png",
+    "parts": [
+      ".site-assets/04/part000"
+    ],
+    "bytes": 340671
+  },
+  {
+    "output": "public/notebooks/laboratorio-ciencia-de-dados/01-metodo-cientifico.ipynb",
+    "parts": [
+      ".site-assets/05/part000",
+      ".site-assets/05/part001",
+      ".site-assets/05/part002",
+      ".site-assets/05/part003",
+      ".site-assets/05/part004"
+    ],
+    "bytes": 3352167
+  }
+]
